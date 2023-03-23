@@ -31,6 +31,10 @@ p {
   transition: 0.5s ease-out;
   z-index: 4;
 }
+.clicked{
+  left: 0 !important;
+  
+}
 .toggle-btn {
   position: absolute;
   top: 30px;
@@ -46,6 +50,21 @@ p {
   background: #09fbba;
   display: block;
   margin-top: 4px;
+  transition: 0.3s ease;
+}
+
+.span1{
+  transform: translateY(50%) rotate(45deg);
+  margin-top: 0 !important;
+  transition: 0.3s ease;
+}
+.span2{
+  display: none !important;
+}
+.span3
+{
+  transform: translateY(-50%) rotate(-45deg);
+  margin-top: 0 !important;
   transition: 0.3s ease;
 }
 li {
